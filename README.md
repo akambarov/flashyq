@@ -31,6 +31,12 @@ The directory structure is as follows:
 - `src`: The source code for the app.
   - `components`: React components for different parts of the app.
   - `styles`: CSS files for styling the components.
-  - `types.ts`: TypeScript types used throughout the application.
-  - `App.tsx`: The main entry point of the app.
-  - `index.tsx`: Renders the root component into the DOM.
+
+## Screenshots
+
+<p>
+  <img src="readme/screenshot-1.jpg" style="width: 45%;" />
+  <img src="readme/screenshot-2.jpg" style="width: 45%;" />
+  <img src="readme/screenshot-3.jpg" style="width: 45%;" />
+  <img src="readme/screenshot-4.jpg" style="width: 45%;" />
+</p>
