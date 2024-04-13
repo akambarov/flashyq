@@ -6,7 +6,7 @@ _A dynamic quiz app that helps you engage in active recall with your data._
 
 ## Features
 
-FlashyQ enhances your learning experience by offering a dynamic quiz environment. Whether you're a student, educator, or quiz enthusiast, FlashyQ provides an engaging platform to test your knowledge and learn new things.
+FlashyQ offers a dynamic quiz environment. For example, if you're a student preparing for your SAT/GRE and need to get a grip on advanced English vocab, you can effectively transition these vocab words from your short-term to long-term memory by using FlashyQ. It's a fun and efficient way to study!
 
 - Simply upload a `.csv` file containing two columns (the first column entries should be questions and the second column entries should be their corresponding answers).
 - FlashyQ randomly selects 10 questions from the first column of the uploaded file, ensuring a unique quiz experience each time.
