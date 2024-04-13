@@ -13,12 +13,13 @@ FlashyQ enhances your learning experience by offering a dynamic quiz environment
 
 ## Running FlashyQ locally
 
-Before running FlashyQ locally, ensure you have `Node.js` and `npm` installed on your system. Then, follow these steps:
+Before running FlashyQ locally, ensure you have `Node.js` and `npm` installed on your system. 
 
-1. Clone the repository: `git clone https://github.com/your-username/flashyq.git`
-2. Navigate to the project directory: `cd flashyq`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+Then, start FlashyQ with:
+
+```sh
+npm start
+```
 
 ## Project Structure
 
