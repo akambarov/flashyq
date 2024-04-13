@@ -29,8 +29,8 @@ The directory structure is as follows:
 
 - `public`: Static assets.
 - `src`: The source code for the app.
-  - `components`: React components for different parts of the app.
-  - `styles`: CSS files for styling the components.
+  - `components`: React components.
+  - `styles`: Styles.
 
 ## Screenshots
 
