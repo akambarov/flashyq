@@ -1,3 +1,5 @@
+<img src="readme/logo.png" width="400" style="margin-bottom: 4px">
+
 # FlashyQ
 
 _A dynamic quiz app that helps you engage in active recall with your data._
