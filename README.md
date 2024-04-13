@@ -15,7 +15,7 @@ FlashyQ offers a dynamic quiz environment. For example, if you're a student prep
 
 ## Running FlashyQ locally
 
-Before running FlashyQ locally, ensure you have `Node.js` and `npm` installed on your system. 
+Before running FlashyQ, ensure you have `Node.js` and `npm` installed on your system. 
 
 Then, start FlashyQ with:
 
@@ -23,7 +23,7 @@ Then, start FlashyQ with:
 npm start
 ```
 
-## Project Structure
+## Project outline
 
 The directory structure is as follows:
 
