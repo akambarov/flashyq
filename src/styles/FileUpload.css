@@ -1,0 +1,40 @@
+button.upload-btn {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border: 0.1px solid #ebebeb;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+button.upload-btn:hover {
+    background-color: #ececec;
+}
+
+button.upload-btn:focus {
+    outline: 3px solid #b4b4b4;
+}
+
+button.upload-btn.drag-hover {
+    background-color: #ececec;
+}
+
+span.upload-icon {
+    color: #000000;
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+.error-box {
+    background-color: #f4e6e7;
+    padding: 7px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    border: 1px solid #e16d68;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: #5f606f;
+}

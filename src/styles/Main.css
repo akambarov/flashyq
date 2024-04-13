@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 65px); /* `65px` is the height of the navbar */
+    overflow-y: auto;
+    padding-bottom: 20px;
+    word-wrap: break-word;  
+    white-space: pre-wrap; 
+}
+
+.starter-btns {
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+}
+
+.row-btns {
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+button.upload-btn,.start-quiz-btn {
+    padding: 5px;
+    height: 45px;
+    width: 185px;
+    cursor: pointer;
+    border: 0px solid;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+button.start-quiz-btn {
+    background-color: #ab68ff;
+    border: 0.1px solid #933aff;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+button.start-quiz-btn:hover {
+    background-color: #9c4cfe;
+}
+
+button.start-quiz-btn:focus {
+    outline: 3px solid #b4b4b4;
+}
+
+.quiz-box,.result-box,.answers-box {
+    max-height: calc(100vh - 65px); 
+    width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+button.quiz-style {
+    margin-top: 18px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 10px 20px;
+    border: 0.1px solid #933aff;
+    background-color: #ab68ff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.quiz-style:hover {
+    background-color: #9c4cfe;
+}
+
+button.quiz-style:focus {
+    outline: 3px solid #b4b4b4;
+}
+
+button.quiz-style[disabled] {
+    border: 0.1px solid #adadad;
+    background-color: #ececec;
+    color:#000000;
+    cursor: not-allowed;
+}
+
+span.btn-icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .quiz-box,.result-box,.answers-box {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .row-btns {
+        flex-direction: column;
+    }
+
+    button.quiz-style {
+        margin: 4px;
+    }
+}

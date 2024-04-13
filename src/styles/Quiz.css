@@ -1,0 +1,27 @@
+.question {
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #dadad8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.options li:hover {
+    background-color: #ececec;
+}
+
+.options li.selected {
+    background-color: #ab68ff;
+    color: #ffffff;
+}
